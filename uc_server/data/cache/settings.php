@@ -1,0 +1,32 @@
+<?php
+$_CACHE['settings'] = array (
+  'accessemail' => '',
+  'censoremail' => '',
+  'censorusername' => '',
+  'dateformat' => 'y-n-j',
+  'doublee' => '0',
+  'nextnotetime' => '0',
+  'timeoffset' => '28800',
+  'privatepmthreadlimit' => '25',
+  'chatpmthreadlimit' => '30',
+  'chatpmmemberlimit' => '35',
+  'pmfloodctrl' => '15',
+  'pmcenter' => '1',
+  'sendpmseccode' => '1',
+  'pmsendregdays' => '3',
+  'maildefault' => 'admin@hacktea8.com',
+  'mailsend' => '2',
+  'mailserver' => 'smtp.exmail.qq.com',
+  'mailport' => '25',
+  'mailauth' => '1',
+  'mailfrom' => 'admin@hacktea8.com',
+  'mailauth_username' => 'admin@hacktea8.com',
+  'mailauth_password' => 'molong1992ML',
+  'maildelimiter' => '1',
+  'mailusername' => '1',
+  'mailsilent' => '1',
+  'version' => '1.6.0',
+  'timeformat' => 'h:i A',
+);
+
+?>

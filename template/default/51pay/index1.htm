@@ -1,0 +1,125 @@
+<!--<?php print <<<EOT
+-->
+<!--searchbottom begin-->
+<!--
+EOT;
+
+print <<<EOT
+-->
+<style type="text/css">
+#nologin h2{color:red;text-align:center;display:block;font-size:medium;}
+#viptype{height:350px;margin-top:25px;font-size:medium;}
+.vip{width:280px;float:left;}
+.vip h2{color:red;text-align:center;display:block;}
+.vip ul li{width:140px;float:left;}
+</style>
+<div >
+<!--
+EOT;
+if(!$winduid){print <<<EOT
+-->
+<div id="nologin">
+<h2> 温馨提醒：您尚未登录！请登录后在进行赞助升级！！</h2>
+</div>
+<!--
+EOT;
+}print <<<EOT
+-->
+  <p>
+	<br>
+	<strong><span style="color: #ff0000;"><span style="font-size: large;"><span style="color: #0000ff;">1、捐助是对我们继续办好网站的一种赞许和支持，完全出于自愿，并清楚你的赞助不是商业交易行为。<br>
+	2、大家对本站的资金支持纯属自愿捐助性质，同时我们也保证所有资金用在本站自身建设上。<br>
+	3、希望大家在赞助前考虑清楚，你对本站捐助帮助是建立在纯粹自愿基础上的，如果觉得没有必要通过赞助获得VIP或教程币以及其他原因，请勿捐助。如果匆忙赞助，本站不予退还赞助费用，赞助会员是建立在对网站热爱的基础上才在资金上支持我们。<br>
+	4、VIP全站及其附属站点教程资料（视频）均可畅通无阻下载（观看），下载不扣教程币。因各地区网络接口不同，本站不承诺任何下载速度的保证，只保证资源下载的有效性。<br>
+	5、帐号仅限个人使用，严禁一号多用，否则进行封号处理。<br>
+	6、本声明最终解释权归本站[$webPageTitle]所有。</span></span></span></strong>
+  </p>
+  <div class="clear"></div>
+  <div id="viptype">
+    <div class="vip">
+	   <h2>VIP 一个月</h2>
+	  <ul>
+	    <li><img src="/51pay/images/vip1/1.gif" title="VIP一个月" alt="VIP一个月" /></li>
+		<li><img src="/51pay/images/vip1/2.gif" title="VIP一个月" alt="VIP一个月" /></li>
+		<li><img src="/51pay/images/vip1/3.gif" title="VIP一个月" alt="VIP一个月" /></li>
+		<li><img src="/51pay/images/vip1/4.gif" title="VIP一个月" alt="VIP一个月" /></li>
+	  </ul>
+	  <div class="clear"></div>
+	  <form action="51pay/51pay.php" method="post">
+	  <strong>VIP $60 </strong>
+	  <input type="hidden" name="money" value="60" />
+	  <input type="hidden" name="uid" value="$winduid" />
+	  <input type="hidden" name="uname" value="{$winddb['username']}" />
+	  <input type="submit" value="赞助" />
+	  </form>
+	  <form action="51pay/51pay.php" method="post">
+	  <strong title="推荐"> 至尊VIP $90</strong>
+	  <input type="hidden" name="money" value="90" />
+	  <input type="hidden" name="uid" value="$winduid" />
+	  <input type="hidden" name="uname" value="{$winddb['username']}" />
+	  <input type="submit" value="赞助" />
+	  </form>
+	</div>
+	<div class="vip">
+	   <h2>VIP 六个月</h2>
+	  <ul>
+	    <li><img src="/51pay/images/vip2/1.gif" title="VIP六个月" alt="VIP六个月" /></li>
+		<li><img src="/51pay/images/vip2/2.gif" title="VIP六个月" alt="VIP六个月" /></li>
+		<li><img src="/51pay/images/vip2/3.gif" title="VIP六个月" alt="VIP六个月" /></li>
+		<li><img src="/51pay/images/vip2/4.gif" title="VIP六个月" alt="VIP六个月" /></li>
+	  </ul>
+	  <div class="clear"></div>
+	  <form action="51pay/51pay.php" method="post">
+	  <strong>VIP $300 </strong>
+	  <input type="hidden" name="money" value="300" />
+	  <input type="hidden" name="uid" value="$winduid" />
+	  <input type="hidden" name="uname" value="{$winddb['username']}" />
+	  <input type="submit" value="赞助" />
+	  </form>
+	  <form action="51pay/51pay.php" method="post">
+	  <strong title="推荐"> 至尊VIP $450</strong>
+	  <input type="hidden" name="money" value="450" />
+	  <input type="hidden" name="uid" value="$winduid" />
+	  <input type="hidden" name="uname" value="{$winddb['username']}" />
+	  <input type="submit" value="赞助" />
+	  </form>
+	</div>
+	<div class="vip">
+	   <h2>VIP 十二个月</h2>
+	  <ul>
+	    <li><img src="/51pay/images/vip3/1.gif" title="VIP十二个月" alt="VIP十二个月" /></li>
+		<li><img src="/51pay/images/vip3/4.gif" title="VIP十二个月" alt="VIP十二个月" /></li>
+		<li><img src="/51pay/images/vip3/3.gif" title="VIP十二个月" alt="VIP十二个月" /></li>
+		<li><img src="/51pay/images/vip2/4.gif" title="VIP十二个月" alt="VIP十二个月" /></li>
+	  </ul>
+	  <div class="clear"></div>
+	  <form action="51pay/51pay.php" method="post">
+	  <strong>VIP $600 </strong>
+	  <input type="hidden" name="money" value="600" />
+	  <input type="hidden" name="uid" value="$winduid" />
+	  <input type="hidden" name="uname" value="{$winddb['username']}" />
+	  <input type="submit" value="赞助" />
+	  </form>
+	  <form action="51pay/51pay.php" method="post">
+	  <strong title="推荐"> 至尊VIP $900</strong>
+	  <input type="hidden" name="money" value="900" />
+	  <input type="hidden" name="uid" value="$winduid" />
+	  <input type="hidden" name="uname" value="{$winddb['username']}" />
+	  <input type="submit" value="赞助" />
+	  </form>
+	</div>
+  </div>
+  <div class="clear"></div>
+  <div class="tips">
+  <ul>
+  <li style="color:red;">注意：</li>
+  <li>1. VIP 具有所有权限（除了视频下载）。</li>
+  <li>2. 至尊VIP 具有所有权限。</li>
+  <li>3. 下单以后请在24小时之内付款，超过时间 订单有可能被删除。</li>
+  <li>4. <img src="51pay/images/vippay.jpg" alt="温馨提示" title="温馨提示" /></li>
+  </ul>
+  </div>
+</div>
+<!--
+EOT;
+?>-->

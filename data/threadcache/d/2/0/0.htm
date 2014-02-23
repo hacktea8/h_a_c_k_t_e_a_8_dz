@@ -1,0 +1,1023 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>鸿鹄IT网络学院-程序设计-系统安全-软件编程技术交流 - </title>
+
+<meta name="keywords" content="鸿鹄论坛,CCNA论坛,思科华为,思科论坛,CCNA题库,CCNA考试,CCNP题库,CCIE培训,思科认证,ccna,ccnp,ccie,思科华为,ccna题库,ccna考试,ccna培训,Cisco认证,思科认证,思科论坛,华为论坛,mcs,ava编程论坛,c语言论坛,PHP论坛，PHP学习论坛，PHP编程论坛，vb论坛,java学习论坛,ajax教程,asp.net教程,vb.net教程,c#论坛,asp教程,SQLServer,mysql命令,oracle教程,access教程" />
+<meta name="description" content="计算机程序设计主流编程语言技术交流编程社区，包含C/C++语言,vb/VB.NET教程,java教程,ajax教程,asp.net教程,php教程,c#论坛,asp教程,网站SEO优化,SQLServer,mysql命令,oracle教程,access教程等板块的论坛,为IT程序员提供一个沟通交流的平台! " />
+<meta name="generator" content="Discuz! X3.1" />
+<meta name="author" content="Discuz! Team and Comsenz UI Team" />
+<meta name="copyright" content="2001-2013 Comsenz Inc." />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<base href="http://www.hacktea8.com/" /><link rel="stylesheet" type="text/css" href="data/cache/style_1_common.css?Lt2" /><link rel="stylesheet" type="text/css" href="data/cache/style_1_forum_index.css?Lt2" /><script type="text/javascript">var STYLEID = '1', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'Lt2', charset = 'gbk', discuz_uid = '0', cookiepre = 'kuXG_2132_', cookiedomain = '', cookiepath = '/', showusercard = '1', attackevasive = '0', disallowfloat = 'newthread', creditnotice = '1|威望|点,2|金钱|钱,3|贡献值|点,4|银元|RMB,5|好评度|点,6|下载币|枚', defaultstyle = '', REPORTURL = 'aHR0cDovL3d3dy5oYWNrdGVhOC5jb20vZm9ydW0ucGhw', SITEURL = 'http://www.hacktea8.com/', JSPATH = 'data/cache/', DYNAMICURL = '';</script>
+<script src="data/cache/common.js?Lt2" type="text/javascript"></script>
+<meta name="application-name" content="鸿鹄IT网络学院" />
+<meta name="msapplication-tooltip" content="鸿鹄IT网络学院" />
+<meta name="msapplication-task" content="name=论坛首页;action-uri=http://www.hacktea8.com/forum.php;icon-uri=http://www.hacktea8.com/static/image/common/bbs.ico" />
+<link rel="archives" title="鸿鹄IT网络学院" href="http://www.hacktea8.com/archiver/" />
+<link rel="stylesheet" id="css_widthauto" type="text/css" href="data/cache/style_1_widthauto.css?Lt2" />
+<script type="text/javascript">HTMLNODE.className += ' widthauto'</script>
+<script src="data/cache/forum.js?Lt2" type="text/javascript"></script>
+</head>
+
+<body id="nv_forum" class="pg_index" onkeydown="if(event.keyCode==27) return false;">
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+<div id="toptb" class="cl">
+<div class="wp">
+<div class="z"><a href="javascript:;"  onclick="setHomepage('http://www.hacktea8.com/');">设为首页</a><a href="http://www.hacktea8.com/"  onclick="addFavorite(this.href, '鸿鹄IT网络学院');return false;">收藏本站</a><a href="http://goo.gl/j5ZQ2t" target="_blank"  style="font-weight: bold;color: red">加入QQ编程群</a></div>
+<div class="y">
+<a id="switchblind" href="javascript:;" onclick="toggleBlind(this)" title="开启辅助访问" class="switchblind">开启辅助访问</a>
+<a href="javascript:;" id="switchwidth" onclick="widthauto(this)" title="切换到窄版" class="switchwidth">切换到窄版</a>
+</div>
+</div>
+</div>
+
+<div id="qmenu_menu" class="p_pop blk" style="display: none;">
+<div class="ptm pbw hm">
+请 <a href="javascript:;" class="xi2" onclick="lsSubmit()"><strong>登录</strong></a> 后使用快捷导航<br />没有帐号？<a href="member.php?mod=register" class="xi2 xw1">立即注册</a>
+</div>
+<div id="fjump_menu" class="btda"></div></div><div id="hd">
+<div class="wp">
+<div class="hdc cl"><h2><a href="./" title="鸿鹄IT网络学院"><img src="static/image/common/logo.png" alt="鸿鹄IT网络学院" border="0" /></a></h2><script src="data/cache/logging.js?Lt2" type="text/javascript"></script>
+<form method="post" autocomplete="off" id="lsform" action="member.php?mod=logging&amp;action=login&amp;loginsubmit=yes&amp;infloat=yes&amp;lssubmit=yes" onsubmit="pwmd5('ls_password');return lsSubmit();">
+<div class="fastlg cl">
+<span id="return_ls" style="display:none"></span>
+<div class="y pns">
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td><label for="ls_username">帐号</label></td>
+<td><input type="text" name="username" id="ls_username" class="px vm xg1"  value="UID/用户名/Email" onfocus="if(this.value == 'UID/用户名/Email'){this.value = '';this.className = 'px vm';}" onblur="if(this.value == ''){this.value = 'UID/用户名/Email';this.className = 'px vm xg1';}" tabindex="901" /></td>
+<td class="fastlg_l"><label for="ls_cookietime"><input type="checkbox" name="cookietime" id="ls_cookietime" class="pc" value="2592000" tabindex="903" />自动登录</label></td>
+<td>&nbsp;<a href="javascript:;" onclick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')">找回密码</a></td>
+</tr>
+<tr>
+<td><label for="ls_password">密码</label></td>
+<td><input type="password" name="password" id="ls_password" class="px vm" autocomplete="off" tabindex="902" /></td>
+<td class="fastlg_l"><button type="submit" class="pn vm" tabindex="904" style="width: 75px;"><em>登录</em></button></td>
+<td>&nbsp;<a href="member.php?mod=register" class="xi2 xw1">立即注册</a></td>
+</tr>
+</table>
+<input type="hidden" name="quickforward" value="yes" />
+<input type="hidden" name="handlekey" value="ls" />
+</div>
+
+<div class="fastlg_fm y" style="margin-right: 10px; padding-right: 10px">
+<p><a href="http://www.hacktea8.com/connect.php?mod=login&op=init&referer=forum.php&statfrom=login_simple"><img src="static/image/common/qq_login.gif" class="vm" alt="QQ登录" /></a></p>
+<p class="hm xg1" style="padding-top: 2px;">只需一步，快速开始</p>
+</div>
+</div>
+</form>
+
+<script src="data/cache/md5.js?Lt2" type="text/javascript" reload="1"></script>
+</div>
+
+<div id="nv">
+<a href="javascript:;" id="qmenu" onmouseover="delayShow(this, function () {showMenu({'ctrlid':'qmenu','pos':'34!','ctrlclass':'a','duration':2});showForummenu();})">快捷导航</a>
+<ul><li class="a" id="mn_forum" ><a href="forum.php" hidefocus="true" title="BBS"  >论坛首页<span>BBS</span></a></li><li id="mn_N462e" ><a href="dsu_paulsign-sign.html" hidefocus="true"  >每日签到</a></li><li id="mn_N12a7" ><a href="misc.php?mod=ranklist" hidefocus="true" title="Ranklist"  >排行榜<span>Ranklist</span></a></li></ul>
+</div>
+<ul class="p_pop h_pop" id="plugin_menu" style="display: none">  <li><a href="dsu_paulsign-sign.html" id="mn_plink_sign">每日签到</a></li>
+ </ul>
+<div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div><div id="mu" class="cl">
+</div><div id="scbar" class="cl">
+<form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank">
+<input type="hidden" name="mod" id="scbar_mod" value="search" />
+<input type="hidden" name="formhash" value="f8ed35ca" />
+<input type="hidden" name="srchtype" value="title" />
+<input type="hidden" name="srhfid" value="" />
+<input type="hidden" name="srhlocality" value="forum::index" />
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="scbar_icon_td"></td>
+<td class="scbar_txt_td"><input type="text" name="srchtxt" id="scbar_txt" value="请输入搜索内容" autocomplete="off" x-webkit-speech speech /></td>
+<td class="scbar_type_td"><a href="javascript:;" id="scbar_type" class="xg1" onclick="showMenu(this.id)" hidefocus="true">搜索</a></td>
+<td class="scbar_btn_td"><button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="pn pnc" value="true"><strong class="xi2">搜索</strong></button></td>
+<td class="scbar_hot_td">
+<div id="scbar_hot">
+<strong class="xw1">热搜: </strong>
+
+<a href="search.php?mod=forum&amp;srchtxt=%B1%E0%B3%CC&amp;formhash=f8ed35ca&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">编程</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=linux&amp;formhash=f8ed35ca&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">linux</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%B5%E7%D7%D3%CA%E9&amp;formhash=f8ed35ca&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">电子书</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%BD%C5%B1%BE&amp;formhash=f8ed35ca&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">脚本</a>
+
+</div>
+</td>
+</tr>
+</table>
+</form>
+</div>
+<ul id="scbar_type_menu" class="p_pop" style="display: none;"><li><a href="javascript:;" rel="forum" class="curtype">帖子</a></li><li><a href="javascript:;" rel="user">用户</a></li></ul>
+<script type="text/javascript">
+initSearchmenu('scbar', '');
+</script>
+</div>
+</div>
+
+
+<div id="wp" class="wp">
+<div id="pt" class="bm cl">
+<div class="z">
+<a href="./" class="nvhm" title="首页">鸿鹄IT网络学院</a><em>&raquo;</em><a href="forum.php">论坛首页</a></div>
+<div class="z"></div>
+</div>
+
+
+
+<style id="diy_style" type="text/css"></style>
+
+<div class="wp">
+<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="ct" class="wp cl">
+<div id="chart" class="bm bw0 cl">
+<p class="chart z">今日: <em>1</em><span class="pipe">|</span>昨日: <em>0</em><span class="pipe">|</span>帖子: <em>10091</em><span class="pipe">|</span>会员: <em>803</em><span class="pipe">|</span>欢迎新会员: <em><a href="space-username-cgxl8059.html" target="_blank" class="xi2">cgxl8059</a></em></p>
+<div class="y">
+<a href="forum.php?mod=guide&amp;view=new" title="最新回复" class="xi2">最新回复</a></div>
+</div>
+<!--[diy=diy_chart]--><div id="diy_chart" class="area"></div><!--[/diy]-->
+<div class="mn">
+
+<!-- index four grid -->
+<div class="fl bm">
+<div class="bm bmw cl">
+<div id="category_grid" class="bm_c" >
+<table cellspacing="0" cellpadding="0"><tr>
+<td valign="top" class="category_l1">
+<div class="newimgbox">
+<h4><span class="tit_newimg"></span>最新图片</h4>
+<div class="module cl slidebox_grid" style="width:218px">
+<script type="text/javascript">
+var slideSpeed = 5000;
+var slideImgsize = [218,200];
+var slideBorderColor = '#C2D5E3';
+var slideBgColor = '#F2F2F2';
+var slideImgs = new Array();
+var slideImgLinks = new Array();
+var slideImgTexts = new Array();
+var slideSwitchColor = '#444';
+var slideSwitchbgColor = '#F2F2F2';
+var slideSwitchHiColor = '#C2D5E3';</script>
+<script src="data/cache/forum_slide.js?Lt2" type="text/javascript"></script>
+</div>
+</div>
+</td>
+<td valign="top" class="category_l2">
+<div class="subjectbox">
+<h4><span class="tit_subject"></span>最新主题</h4>
+        <ul class="category_newlist">
+                	<li><a href="thread-9607-1-1.html"  style="color: #EE1B2E" tip="标题: <strong>2014年2月23日签到记录贴</strong><br/>作者: admin (<span title='2014-2-23'>9&nbsp;小时前</span>)<br/>查看/回复: 2/0" onmouseover="showTip(this)" target="_blank">2014年2月23日签到记录贴</a></li>
+        	<li><a href="thread-9601-1-1.html" tip="标题: <strong>《Google Android手机必装发烧软件200+》彩图版[PDF]</strong><br/>作者: hacktea8 (<span title='2014-2-20'>3&nbsp;天前</span>)<br/>查看/回复: 6/0" onmouseover="showTip(this)" target="_blank">《Google Android手机必装发烧软 ...</a></li>
+        	<li><a href="thread-9600-1-1.html" tip="标题: <strong>《Ruby完全自学手册》扫描版[PDF]</strong><br/>作者: hacktea8 (<span title='2014-2-20'>3&nbsp;天前</span>)<br/>查看/回复: 5/0" onmouseover="showTip(this)" target="_blank">《Ruby完全自学手册》扫描版[PDF ...</a></li>
+        	<li><a href="thread-9599-1-1.html" tip="标题: <strong>《从零开始学JavaScript》扫描版[PDF]</strong><br/>作者: hacktea8 (<span title='2014-2-20'>3&nbsp;天前</span>)<br/>查看/回复: 5/0" onmouseover="showTip(this)" target="_blank">《从零开始学JavaScript》扫描版 ...</a></li>
+        	<li><a href="thread-9598-1-1.html" tip="标题: <strong>《零基础学JavaScript(第2版)》扫描版[PDF]</strong><br/>作者: hacktea8 (<span title='2014-2-20'>3&nbsp;天前</span>)<br/>查看/回复: 5/0" onmouseover="showTip(this)" target="_blank">《零基础学JavaScript(第2版)》 ...</a></li>
+        	<li><a href="thread-9597-1-1.html" tip="标题: <strong>《国产神通数据库教程》高清文字版[PDF]</strong><br/>作者: hacktea8 (<span title='2014-2-20'>3&nbsp;天前</span>)<br/>查看/回复: 3/0" onmouseover="showTip(this)" target="_blank">《国产神通数据库教程》高清文字 ...</a></li>
+        	<li><a href="thread-9596-1-1.html" tip="标题: <strong>《过程控制》高清文字版[PDF]</strong><br/>作者: hacktea8 (<span title='2014-2-20'>3&nbsp;天前</span>)<br/>查看/回复: 5/0" onmouseover="showTip(this)" target="_blank">《过程控制》高清文字版[PDF]</a></li>
+        	<li><a href="thread-9595-1-1.html" tip="标题: <strong>《化学与生物传感器》高清文字版[PDF]</strong><br/>作者: hacktea8 (<span title='2014-2-20'>3&nbsp;天前</span>)<br/>查看/回复: 5/0" onmouseover="showTip(this)" target="_blank">《化学与生物传感器》高清文字版 ...</a></li>
+        	<li><a href="thread-9594-1-1.html" tip="标题: <strong>《婚纱照片修饰与创意设计》高清文字版[PDF]</strong><br/>作者: hacktea8 (<span title='2014-2-20'>3&nbsp;天前</span>)<br/>查看/回复: 3/0" onmouseover="showTip(this)" target="_blank">《婚纱照片修饰与创意设计》高清 ...</a></li>
+        	<li><a href="thread-9593-1-1.html" tip="标题: <strong>《机器人创新制作》高清文字版[PDF]</strong><br/>作者: hacktea8 (<span title='2014-2-20'>3&nbsp;天前</span>)<br/>查看/回复: 4/0" onmouseover="showTip(this)" target="_blank">《机器人创新制作》高清文字版[P ...</a></li>
+         </ul>
+         </div>
+</td>
+<td valign="top" class="category_l3">
+<div class="replaybox">
+<h4><span class="tit_replay"></span>最新回复</h4>
+        <ul class="category_newlist">
+                	<li><a href="forum.php?mod=redirect&amp;tid=1491&amp;goto=lastpost#lastpost"tip="标题: <strong>VS2010 使用GDI+创建显示GIF的MFC程序</strong><br/>作者: hacktea8 (2013-1-26)<br/>查看/回复: 594/4" onmouseover="showTip(this)" target="_blank">VS2010 使用GDI+创建显示GIF的MF ...</a></li>
+        	<li><a href="forum.php?mod=redirect&amp;tid=9566&amp;goto=lastpost#lastpost"tip="标题: <strong>祝大家天天有好心情！ (2014年2月)</strong><br/>作者: admin (2014-2-7)<br/>查看/回复: 6/3" onmouseover="showTip(this)" target="_blank">祝大家天天有好心情！ (2014年2 ...</a></li>
+        	<li><a href="forum.php?mod=redirect&amp;tid=9531&amp;goto=lastpost#lastpost"tip="标题: <strong>祝大家天天有好心情！ (2014年1月)</strong><br/>作者: admin (2014-1-1)<br/>查看/回复: 56/48" onmouseover="showTip(this)" target="_blank">祝大家天天有好心情！ (2014年1 ...</a></li>
+        	<li><a href="forum.php?mod=redirect&amp;tid=9396&amp;goto=lastpost#lastpost"tip="标题: <strong>祝大家天天有好心情！ (2013年12月)</strong><br/>作者: admin (2013-12-1)<br/>查看/回复: 118/56" onmouseover="showTip(this)" target="_blank">祝大家天天有好心情！ (2013年12 ...</a></li>
+        	<li><a href="forum.php?mod=redirect&amp;tid=1493&amp;goto=lastpost#lastpost"tip="标题: <strong>VS2010 使用GDI+创建图片水印的MFC程序</strong><br/>作者: hacktea8 (2013-1-26)<br/>查看/回复: 718/3" onmouseover="showTip(this)" target="_blank">VS2010 使用GDI+创建图片水印的M ...</a></li>
+        	<li><a href="forum.php?mod=redirect&amp;tid=9395&amp;goto=lastpost#lastpost"tip="标题: <strong>祝大家天天有好心情！ (2013年11月)</strong><br/>作者: admin (2013-11-27)<br/>查看/回复: 60/7" onmouseover="showTip(this)" target="_blank">祝大家天天有好心情！ (2013年11 ...</a></li>
+        	<li><a href="forum.php?mod=redirect&amp;tid=338&amp;goto=lastpost#lastpost"tip="标题: <strong>奇思异想编程序(Delphi篇) pdf格式【黑客茶吧】</strong><br/>作者: hacktea8 (2012-1-26)<br/>查看/回复: 532/1" onmouseover="showTip(this)" target="_blank">奇思异想编程序(Delphi篇) pdf格 ...</a></li>
+        	<li><a href="forum.php?mod=redirect&amp;tid=9225&amp;goto=lastpost#lastpost"tip="标题: <strong>swfupload 上传报 security error # 2049 (security) 安全错误问题</strong><br/>作者: hacktea8 (2013-10-18)<br/>查看/回复: 185/1" onmouseover="showTip(this)" target="_blank">swfupload 上传报 security erro ...</a></li>
+        	<li><a href="forum.php?mod=redirect&amp;tid=1783&amp;goto=lastpost#lastpost"tip="标题: <strong>《C#开发实战1200例 (第Ⅰ卷)》扫描版[PDF]</strong><br/>作者: hacktea8 (2013-2-24)<br/>查看/回复: 3/1" onmouseover="showTip(this)" target="_blank">《C#开发实战1200例 (第Ⅰ卷)》 ...</a></li>
+        	<li><a href="forum.php?mod=redirect&amp;tid=8855&amp;goto=lastpost#lastpost"tip="标题: <strong>祝大家天天有好心情！ (2013年9月)</strong><br/>作者: admin (2013-9-19)<br/>查看/回复: 154/2" onmouseover="showTip(this)" target="_blank">祝大家天天有好心情！ (2013年9 ...</a></li>
+         </ul>
+         </div>
+</td>
+<td valign="top" class="category_l3">
+<div class="hottiebox">
+<h4><span class="tit_hottie"></span>热帖</h4>
+        <ul class="category_newlist">
+                 </ul>
+         </div>
+</td>
+</table>
+</div>
+</div>
+</div>
+<!-- index four grid end -->
+
+
+
+
+<div class="fl bm">
+<div class="bm bmw  flg cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_1_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_1');" />
+</span>
+<h2><a href="forum.php?gid=1" style="">会员交流区</a></h2>
+</div>
+<div id="category_1" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-3-1.html"><img src="static/image/common/forum.gif" alt="新人报道" /></a>
+</div>
+<dl>
+<dt><a href="forum-3-1.html">新人报道</a></dt>
+<dd><em>主题: 19</em>, <em>帖数: 36</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=8856&amp;goto=lastpost#lastpost">最后发表: 2013-9-19 14:50</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-4-1.html"><img src="static/image/common/forum.gif" alt="会员谈心/闲聊" /></a>
+</div>
+<dl>
+<dt><a href="forum-4-1.html">会员谈心/闲聊</a></dt>
+<dd><em>主题: 25</em>, <em>帖数: 51</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=8525&amp;goto=lastpost#lastpost">最后发表: 2013-8-28 15:23</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-2-1.html"><img src="static/image/common/forum_new.gif" alt="每日签到" /></a>
+</div>
+<dl>
+<dt><a href="forum-2-1.html">每日签到</a><em class="xw0 xi1" title="今日"> (1)</em></dt>
+<dd><em>主题: 27</em>, <em>帖数: 516</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=9607&amp;goto=lastpost#lastpost">最后发表: <span title="2014-2-23 08:43">9&nbsp;小时前</span></a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-5-1.html"><img src="static/image/common/forum.gif" alt="账户违规查询" /></a>
+</div>
+<dl>
+<dt><a href="forum-5-1.html">账户违规查询</a></dt>
+<dd><em>主题: 0</em>, <em>帖数: 0</em></dd><dd>
+从未
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-6-1.html"><img src="static/image/common/forum.gif" alt="帖子回收站" /></a>
+</div>
+<dl>
+<dt><a href="forum-6-1.html">帖子回收站</a></dt>
+<dd><em>主题: 1</em>, <em>帖数: 1</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=174&amp;goto=lastpost#lastpost">最后发表: 2012-1-16 09:15</a>
+</dd>
+</dl>
+</td>
+</tr>
+</table>
+</div>
+</div><div class="bm bmw  flg cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_14_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_14');" />
+</span>
+<h2><a href="forum.php?gid=14" style="">综合技术区</a></h2>
+</div>
+<div id="category_14" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-71-1.html"><img src="static/image/common/forum.gif" alt="计算机网络书籍" /></a>
+</div>
+<dl>
+<dt><a href="forum-71-1.html">计算机网络书籍</a></dt>
+<dd><em>主题: 7384</em>, <em>帖数: 7405</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=9595&amp;goto=lastpost#lastpost">最后发表: <span title="2014-2-20 09:20">3&nbsp;天前</span></a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-72-1.html"><img src="static/image/common/forum.gif" alt="电子视频教程" /></a>
+</div>
+<dl>
+<dt><a href="forum-72-1.html">电子视频教程</a></dt>
+<dd><em>主题: 0</em>, <em>帖数: 0</em></dd><dd>
+从未
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-73-1.html"><img src="static/image/common/forum.gif" alt="电驴资源离线下载申请" /></a>
+</div>
+<dl>
+<dt><a href="forum-73-1.html">电驴资源离线下载申请</a></dt>
+<dd><em>主题: 0</em>, <em>帖数: 0</em></dd><dd>
+从未
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-19-1.html"><img src="static/image/common/forum.gif" alt="优秀工具" /></a>
+</div>
+<dl>
+<dt><a href="forum-19-1.html">优秀工具</a></dt>
+<dd><em>主题: 30</em>, <em>帖数: 39</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=7887&amp;goto=lastpost#lastpost">最后发表: 2013-8-15 21:14</a>
+</dd>
+</dl>
+</td>
+<td width="19.9%">&nbsp;</td></tr></tr>
+</table>
+</div>
+</div><div class="bm bmw  flg cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_54_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_54');" />
+</span>
+<h2><a href="forum.php?gid=54" style="">程序编程区</a></h2>
+</div>
+<div id="category_54" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-55-1.html"><img src="static/image/common/forum.gif" alt="编程工具下载" /></a>
+</div>
+<dl>
+<dt><a href="forum-55-1.html">编程工具下载</a></dt>
+<dd><em>主题: 35</em>, <em>帖数: 43</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=2399&amp;goto=lastpost#lastpost">最后发表: 2013-4-4 08:11</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-56-1.html"><img src="static/image/common/forum.gif" alt="Android编程" /></a>
+</div>
+<dl>
+<dt><a href="forum-56-1.html">Android编程</a></dt>
+<dd><em>主题: 14</em>, <em>帖数: 16</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=9481&amp;goto=lastpost#lastpost">最后发表: 2013-12-18 17:57</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-57-1.html"><img src="static/image/common/forum.gif" alt="microsoft visual C++编程" /></a>
+</div>
+<dl>
+<dt><a href="forum-57-1.html">microsoft visual C++编程</a></dt>
+<dd><em>主题: 471</em>, <em>帖数: 486</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=1491&amp;goto=lastpost#lastpost">最后发表: <span title="2014-2-19 09:49">4&nbsp;天前</span></a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-58-1.html"><img src="static/image/common/forum.gif" alt="microsoft visual basic编程" /></a>
+</div>
+<dl>
+<dt><a href="forum-58-1.html">microsoft visual basic编程</a></dt>
+<dd><em>主题: 26</em>, <em>帖数: 26</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=416&amp;goto=lastpost#lastpost">最后发表: 2012-1-31 13:19</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-59-1.html"><img src="static/image/common/forum.gif" alt="Delphi编程" /></a>
+</div>
+<dl>
+<dt><a href="forum-59-1.html">Delphi编程</a></dt>
+<dd><em>主题: 19</em>, <em>帖数: 20</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=338&amp;goto=lastpost#lastpost">最后发表: 2013-11-19 14:28</a>
+</dd>
+</dl>
+</td>
+</tr>
+<tr class="fl_row">
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-60-1.html"><img src="static/image/common/forum.gif" alt="java编程" /></a>
+</div>
+<dl>
+<dt><a href="forum-60-1.html">java编程</a></dt>
+<dd><em>主题: 8</em>, <em>帖数: 8</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=8522&amp;goto=lastpost#lastpost">最后发表: 2013-8-27 15:38</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-61-1.html"><img src="static/image/common/forum.gif" alt="php编程" /></a>
+</div>
+<dl>
+<dt><a href="forum-61-1.html">php编程</a></dt>
+<dd><em>主题: 273</em>, <em>帖数: 283</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=9498&amp;goto=lastpost#lastpost">最后发表: 2013-12-24 18:51</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-62-1.html"><img src="static/image/common/forum.gif" alt="html编程" /></a>
+</div>
+<dl>
+<dt><a href="forum-62-1.html">html编程</a></dt>
+<dd><em>主题: 225</em>, <em>帖数: 230</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=9497&amp;goto=lastpost#lastpost">最后发表: 2013-12-23 18:12</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-63-1.html"><img src="static/image/common/forum.gif" alt="易语言编程" /></a>
+</div>
+<dl>
+<dt><a href="forum-63-1.html">易语言编程</a></dt>
+<dd><em>主题: 3</em>, <em>帖数: 5</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=420&amp;goto=lastpost#lastpost">最后发表: 2013-9-19 08:57</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-64-1.html"><img src="static/image/common/forum.gif" alt="脚本编程" /></a>
+</div>
+<dl>
+<dt><a href="forum-64-1.html">脚本编程</a></dt>
+<dd><em>主题: 214</em>, <em>帖数: 219</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=9496&amp;goto=lastpost#lastpost">最后发表: 2013-12-23 09:07</a>
+</dd>
+</dl>
+</td>
+</tr>
+<tr class="fl_row">
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-65-1.html"><img src="static/image/common/forum.gif" alt="汇编程序设计" /></a>
+</div>
+<dl>
+<dt><a href="forum-65-1.html">汇编程序设计</a></dt>
+<dd><em>主题: 16</em>, <em>帖数: 19</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=8563&amp;goto=lastpost#lastpost">最后发表: 2013-9-2 13:26</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-74-1.html"><img src="static/image/common/forum.gif" alt="Python编程" /></a>
+</div>
+<dl>
+<dt><a href="forum-74-1.html">Python编程</a></dt>
+<dd><em>主题: 40</em>, <em>帖数: 40</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=9519&amp;goto=lastpost#lastpost">最后发表: 2013-12-26 11:41</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-66-1.html"><img src="static/image/common/forum.gif" alt="驱动程序编程" /></a>
+</div>
+<dl>
+<dt><a href="forum-66-1.html">驱动程序编程</a></dt>
+<dd><em>主题: 4</em>, <em>帖数: 4</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=8564&amp;goto=lastpost#lastpost">最后发表: 2013-9-2 13:27</a>
+</dd>
+</dl>
+</td>
+<td width="19.9%">&nbsp;</td><td width="19.9%">&nbsp;</td></tr></tr>
+</table>
+</div>
+</div><div class="bm bmw  flg cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_25_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_25');" />
+</span>
+<h2><a href="forum.php?gid=25" style="">程序安全探讨学习区</a></h2>
+</div>
+<div id="category_25" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-26-1.html"><img src="static/image/common/forum.gif" alt="工具下载" /></a>
+</div>
+<dl>
+<dt><a href="forum-26-1.html">工具下载</a></dt>
+<dd><em>主题: 1</em>, <em>帖数: 3</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=459&amp;goto=lastpost#lastpost">最后发表: 2012-3-3 13:46</a>
+</dd>
+</dl>
+</td>
+<td width="19.9%">&nbsp;</td><td width="19.9%">&nbsp;</td><td width="19.9%">&nbsp;</td><td width="19.9%">&nbsp;</td></tr></tr>
+</table>
+</div>
+</div><div class="bm bmw  flg cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_20_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_20');" />
+</span>
+<h2><a href="forum.php?gid=20" style="">网络安全学习区</a></h2>
+</div>
+<div id="category_20" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-24-1.html"><img src="static/image/common/forum.gif" alt="免费资源" /></a>
+</div>
+<dl>
+<dt><a href="forum-24-1.html">免费资源</a></dt>
+<dd><em>主题: 10</em>, <em>帖数: 10</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=8541&amp;goto=lastpost#lastpost">最后发表: 2013-8-30 20:14</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-21-1.html"><img src="static/image/common/forum.gif" alt="网络防御" /></a>
+</div>
+<dl>
+<dt><a href="forum-21-1.html">网络防御</a></dt>
+<dd><em>主题: 8</em>, <em>帖数: 8</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=423&amp;goto=lastpost#lastpost">最后发表: 2012-1-31 21:11</a>
+</dd>
+</dl>
+</td>
+<td width="19.9%">&nbsp;</td><td width="19.9%">&nbsp;</td><td width="19.9%">&nbsp;</td></tr></tr>
+</table>
+</div>
+</div><div class="bm bmw  flg cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_48_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_48');" />
+</span>
+<h2><a href="forum.php?gid=48" style="">操作系统学习区</a></h2>
+</div>
+<div id="category_48" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-49-1.html"><img src="static/image/common/forum.gif" alt="操作系统下载" /></a>
+</div>
+<dl>
+<dt><a href="forum-49-1.html">操作系统下载</a></dt>
+<dd><em>主题: 11</em>, <em>帖数: 11</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=592&amp;goto=lastpost#lastpost">最后发表: 2012-5-25 08:18</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-68-1.html"><img src="static/image/common/forum.gif" alt="MYSQL数据库" /></a>
+</div>
+<dl>
+<dt><a href="forum-68-1.html">MYSQL数据库</a></dt>
+<dd><em>主题: 121</em>, <em>帖数: 122</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=9565&amp;goto=lastpost#lastpost">最后发表: 2014-1-23 17:30</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-69-1.html"><img src="static/image/common/forum.gif" alt="MSSQL数据库" /></a>
+</div>
+<dl>
+<dt><a href="forum-69-1.html">MSSQL数据库</a></dt>
+<dd><em>主题: 1</em>, <em>帖数: 1</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=1725&amp;goto=lastpost#lastpost">最后发表: 2013-2-19 17:24</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-70-1.html"><img src="static/image/common/forum.gif" alt="Oracle数据库" /></a>
+</div>
+<dl>
+<dt><a href="forum-70-1.html">Oracle数据库</a></dt>
+<dd><em>主题: 0</em>, <em>帖数: 0</em></dd><dd>
+从未
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-50-1.html"><img src="static/image/common/forum.gif" alt="windows学习" /></a>
+</div>
+<dl>
+<dt><a href="forum-50-1.html">windows学习</a></dt>
+<dd><em>主题: 40</em>, <em>帖数: 40</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=9273&amp;goto=lastpost#lastpost">最后发表: 2013-11-14 10:20</a>
+</dd>
+</dl>
+</td>
+</tr>
+<tr class="fl_row">
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-51-1.html"><img src="static/image/common/forum.gif" alt="linux学习" /></a>
+</div>
+<dl>
+<dt><a href="forum-51-1.html">linux学习</a></dt>
+<dd><em>主题: 328</em>, <em>帖数: 332</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=9581&amp;goto=lastpost#lastpost">最后发表: <span title="2014-2-17 14:49">6&nbsp;天前</span></a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-52-1.html"><img src="static/image/common/forum.gif" alt="windows服务器安全" /></a>
+</div>
+<dl>
+<dt><a href="forum-52-1.html">windows服务器安全</a></dt>
+<dd><em>主题: 18</em>, <em>帖数: 18</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=691&amp;goto=lastpost#lastpost">最后发表: 2012-9-17 07:52</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-53-1.html"><img src="static/image/common/forum.gif" alt="linux服务器安全" /></a>
+</div>
+<dl>
+<dt><a href="forum-53-1.html">linux服务器安全</a></dt>
+<dd><em>主题: 10</em>, <em>帖数: 10</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=2185&amp;goto=lastpost#lastpost">最后发表: 2013-3-26 19:46</a>
+</dd>
+</dl>
+</td>
+<td width="19.9%">&nbsp;</td><td width="19.9%">&nbsp;</td></tr></tr>
+</table>
+</div>
+</div><div class="bm bmw  flg cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_43_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_43');" />
+</span>
+<h2><a href="forum.php?gid=43" style="">多媒体学习区</a></h2>
+</div>
+<div id="category_43" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-44-1.html"><img src="static/image/common/forum.gif" alt="工具下载" /></a>
+</div>
+<dl>
+<dt><a href="forum-44-1.html">工具下载</a></dt>
+<dd><em>主题: 2</em>, <em>帖数: 2</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=151&amp;goto=lastpost#lastpost">最后发表: 2012-1-15 09:30</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-45-1.html"><img src="static/image/common/forum.gif" alt="多媒体技术" /></a>
+</div>
+<dl>
+<dt><a href="forum-45-1.html">多媒体技术</a></dt>
+<dd><em>主题: 6</em>, <em>帖数: 6</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=399&amp;goto=lastpost#lastpost">最后发表: 2012-1-30 20:46</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-46-1.html"><img src="static/image/common/forum.gif" alt="技术交流" /></a>
+</div>
+<dl>
+<dt><a href="forum-46-1.html">技术交流</a></dt>
+<dd><em>主题: 0</em>, <em>帖数: 0</em></dd><dd>
+从未
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-47-1.html"><img src="static/image/common/forum.gif" alt="站长之家" /></a>
+</div>
+<dl>
+<dt><a href="forum-47-1.html">站长之家</a></dt>
+<dd><em>主题: 9</em>, <em>帖数: 9</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=554&amp;goto=lastpost#lastpost">最后发表: 2012-3-11 15:53</a>
+</dd>
+</dl>
+</td>
+<td width="19.9%">&nbsp;</td></tr></tr>
+</table>
+</div>
+</div><div class="bm bmw  flg cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_38_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_38');" />
+</span>
+<h2><a href="forum.php?gid=38" style="">网络互连学习区</a></h2>
+</div>
+<div id="category_38" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-39-1.html"><img src="static/image/common/forum.gif" alt="模拟工具下载" /></a>
+</div>
+<dl>
+<dt><a href="forum-39-1.html">模拟工具下载</a></dt>
+<dd><em>主题: 2</em>, <em>帖数: 2</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=400&amp;goto=lastpost#lastpost">最后发表: 2012-1-30 20:50</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-40-1.html"><img src="static/image/common/forum.gif" alt="网络互连技术" /></a>
+</div>
+<dl>
+<dt><a href="forum-40-1.html">网络互连技术</a></dt>
+<dd><em>主题: 2</em>, <em>帖数: 2</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=575&amp;goto=lastpost#lastpost">最后发表: 2012-3-16 19:31</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-41-1.html"><img src="static/image/common/forum.gif" alt="路由交换配置实例" /></a>
+</div>
+<dl>
+<dt><a href="forum-41-1.html">路由交换配置实例</a></dt>
+<dd><em>主题: 2</em>, <em>帖数: 2</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=410&amp;goto=lastpost#lastpost">最后发表: 2012-1-31 10:23</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-42-1.html"><img src="static/image/common/forum.gif" alt="问题求助" /></a>
+</div>
+<dl>
+<dt><a href="forum-42-1.html">问题求助</a></dt>
+<dd><em>主题: 0</em>, <em>帖数: 0</em></dd><dd>
+从未
+</dd>
+</dl>
+</td>
+<td width="19.9%">&nbsp;</td></tr></tr>
+</table>
+</div>
+</div><div class="bm bmw  flg cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_32_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_32');" />
+</span>
+<span class="y">分区版主: <a href="space-username-liboailibo.html" class="notabs" c="1">liboailibo</a>, <a href="space-username-33xiaobai.html" class="notabs" c="1">33xiaobai</a>, <a href="space-username-qw7847372.html" class="notabs" c="1">qw7847372</a></span><h2><a href="forum.php?gid=32" style="">网游编程学习区</a></h2>
+</div>
+<div id="category_32" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-33-1.html"><img src="static/image/common/forum.gif" alt="网游辅助资源发布" /></a>
+</div>
+<dl>
+<dt><a href="forum-33-1.html">网游辅助资源发布</a></dt>
+<dd><em>主题: 18</em>, <em>帖数: 24</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=2308&amp;goto=lastpost#lastpost">最后发表: 2013-3-31 09:02</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-34-1.html"><img src="static/image/common/forum.gif" alt="辅助成品发布" /></a>
+</div>
+<dl>
+<dt><a href="forum-34-1.html">辅助成品发布</a></dt>
+<dd><em>主题: 3</em>, <em>帖数: 3</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=3825&amp;goto=lastpost#lastpost">最后发表: 2013-5-25 15:46</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-35-1.html"><img src="static/image/common/forum.gif" alt="辅助编程求助" /></a>
+</div>
+<dl>
+<dt><a href="forum-35-1.html">辅助编程求助</a></dt>
+<dd><em>主题: 0</em>, <em>帖数: 0</em></dd><dd>
+从未
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-36-1.html"><img src="static/image/common/forum.gif" alt="高级辅助学习" /></a>
+</div>
+<dl>
+<dt><a href="forum-36-1.html">高级辅助学习</a></dt>
+<dd><em>主题: 8</em>, <em>帖数: 8</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=4160&amp;goto=lastpost#lastpost">最后发表: 2013-6-10 20:37</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-37-1.html"><img src="static/image/common/forum.gif" alt="经典游戏" /></a>
+</div>
+<dl>
+<dt><a href="forum-37-1.html">经典游戏</a></dt>
+<dd><em>主题: 3</em>, <em>帖数: 4</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=67&amp;goto=lastpost#lastpost">最后发表: 2012-8-18 19:59</a>
+</dd>
+</dl>
+</td>
+</tr>
+</table>
+</div>
+</div><div class="bm bmw  flg cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_7_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_7');" />
+</span>
+<h2><a href="forum.php?gid=7" style="">论坛内务管理</a></h2>
+</div>
+<div id="category_7" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-8-1.html"><img src="static/image/common/forum.gif" alt="论坛公告" /></a>
+</div>
+<dl>
+<dt><a href="forum-8-1.html">论坛公告</a></dt>
+<dd><em>主题: 11</em>, <em>帖数: 19</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=542&amp;goto=lastpost#lastpost">最后发表: 2013-5-22 09:59</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-9-1.html"><img src="static/image/common/forum.gif" alt="论坛奖励发放" /></a>
+</div>
+<dl>
+<dt><a href="forum-9-1.html">论坛奖励发放</a></dt>
+<dd><em>主题: 1</em>, <em>帖数: 1</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=227&amp;goto=lastpost#lastpost">最后发表: 2012-1-20 19:03</a>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-10-1.html"><img src="static/image/common/forum.gif" alt="论坛版主申请" /></a>
+</div>
+<dl>
+<dt><a href="forum-10-1.html">论坛版主申请</a></dt>
+<dd><em>主题: 0</em>, <em>帖数: 0</em></dd><dd>
+从未
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-11-1.html"><img src="static/image/common/forum.gif" alt="投诉举报" /></a>
+</div>
+<dl>
+<dt><a href="forum-11-1.html">投诉举报</a></dt>
+<dd><em>主题: 0</em>, <em>帖数: 0</em></dd><dd>
+从未
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-12-1.html"><img src="static/image/common/forum.gif" alt="论坛活动" /></a>
+</div>
+<dl>
+<dt><a href="forum-12-1.html">论坛活动</a></dt>
+<dd><em>主题: 0</em>, <em>帖数: 0</em></dd><dd>
+从未
+</dd>
+</dl>
+</td>
+</tr>
+<tr class="fl_row">
+<td class="fl_g" width="19.9%">
+<div class="fl_icn_g">
+<a href="forum-13-1.html"><img src="static/image/common/forum.gif" alt="论坛建议" /></a>
+</div>
+<dl>
+<dt><a href="forum-13-1.html">论坛建议</a></dt>
+<dd><em>主题: 1</em>, <em>帖数: 1</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=419&amp;goto=lastpost#lastpost">最后发表: 2012-1-31 20:34</a>
+</dd>
+</dl>
+</td>
+<td width="19.9%">&nbsp;</td><td width="19.9%">&nbsp;</td><td width="19.9%">&nbsp;</td><td width="19.9%">&nbsp;</td></tr></tr>
+</table>
+</div>
+</div>
+</div>
+
+<div class="wp mtn">
+<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="online" class="bm oll">
+<div class="bm_h">
+<span class="o"><a href="forum.php?showoldetails=no#online" title="收起/展开"><img src="static/image/common/collapsed_no.gif" alt="收起/展开" /></a></span>
+<h3>
+<strong><a href="home.php?mod=space&amp;do=friend&amp;view=online&amp;type=member">在线会员</a></strong>
+<span class="xs1">- <strong>8</strong> 人在线
+- <strong>0</strong> 会员(<strong>0</strong> 隐身),
+<strong>8</strong> 位游客
+- 最高记录是 <strong>11</strong> 于 <strong>2014-2-22</strong>.</span>
+</h3>
+</div>
+<dl id="onlinelist" class="bm_c">
+<dt class="ptm pbm bbda"><img src="static/image/common/online_admin.gif" /> 管理员 &nbsp; &nbsp; &nbsp; <img src="static/image/common/online_supermod.gif" /> 超级版主 &nbsp; &nbsp; &nbsp; <img src="static/image/common/online_moderator.gif" /> 版主 &nbsp; &nbsp; &nbsp; <img src="static/image/common/online_member.gif" /> 会员 &nbsp; &nbsp; &nbsp; </dt>
+<dd class="ptm pbm">
+<ul class="cl">
+<li style="width: auto">当前只有游客或隐身会员在线</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="bm lk">
+<div id="category_lk" class="bm_c ptm">
+<ul class="x mbm cl">
+<li><a href="http://tv.hacktea8.com" target="_blank" title="大家影视分享社区">大家影视分享社区</a></li><li><a href="http://emu.hacktea8.com" target="_blank" title="电驴BT资源分享">电驴BT资源分享</a></li></ul>
+</div>
+</div>
+
+</div>
+
+</div>
+<script>fixed_top_nv();</script>	</div>
+
+
+
+
+<script type="text/javascript">
+_attachEvent(window, 'load', getForbiddenFormula, document);
+function getForbiddenFormula() {
+var toGetForbiddenFormulaFIds = function () {
+ajaxget('plugin.php?id=cloudsearch&formhash=f8ed35ca');
+};
+var a = document.body.getElementsByTagName('a');
+for(var i = 0;i < a.length;i++){
+if(a[i].getAttribute('sc')) {
+a[i].setAttribute('mid', hash(a[i].href));
+a[i].onmousedown = function() {toGetForbiddenFormulaFIds();};
+}
+}
+var btn = document.body.getElementsByTagName('button');
+for(var i = 0;i < btn.length;i++){
+if(btn[i].getAttribute('sc')) {
+btn[i].setAttribute('mid', hash(btn[i].id));
+btn[i].onmousedown = function() {toGetForbiddenFormulaFIds();};
+}
+}
+}
+</script>
+
+<div id="ft" class="wp cl">
+<div id="flk" class="y">
+<p>
+<a href="archiver/" >Archiver</a><span class="pipe">|</span><a href="forum.php?mobile=yes" >手机版</a><span class="pipe">|</span><a href="forum.php?mod=misc&action=showdarkroom" >小黑屋</a><span class="pipe">|</span><strong><a href="http://www.hacktea8.com/" target="_blank">Hacktea8 Inc.</a></strong>
+( <a href="http://www.miitbeian.gov.cn/" target="_blank">豫ICP备12015297号</a> )&nbsp;<a href="http://discuz.qq.com/service/security" target="_blank" title="防水墙保卫网站远离侵害"><img src="static/image/common/security.png"></a><script src="http://s6.cnzz.com/stat.php?id=5286681&web_id=5286681&show=pic1" language="JavaScript"></script>
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&img=7&pos=right&uid=654561" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+var bds_config={"snsKey":"{'tsina':'457497316','tqq':'801317745','t163':'','tsohu':''}"};
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END --></p>
+<p class="xs0">
+GMT+8, 2014-2-23 18:06<span id="debuginfo">
+</span>
+</p>
+</div>
+<div id="frt">
+<p>Powered by <strong>Discuz!</strong> <em>X3.1</em></p>
+<p class="xs0">&copy; 2001-2014 Comsenz Inc.</p>
+</div></div>
+<script src="home.php?mod=misc&ac=sendmail&rand=1393150016" type="text/javascript"></script>
+<div id="scrolltop">
+<span hidefocus="true"><a title="返回顶部" onclick="window.scrollTo('0','0')" class="scrolltopa" ><b>返回顶部</b></a></span>
+</div>
+<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script>
+			<div id="discuz_tips" style="display:none;"></div>
+			<script type="text/javascript">
+				var tipsinfo = '30638855|X3.1|0.6||0||0|7|1393150016|cdca4c96e93bfe90cc48b6d9e3ffc241|2';
+			</script>
+			<script src="http://discuz.gtimg.cn/cloud/scripts/discuz_tips.js?v=1" type="text/javascript" charset="UTF-8"></script>
